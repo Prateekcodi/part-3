@@ -98,3 +98,24 @@ img{
   box-shadow: 0px 12px 10px rgba(0, 0, 0, 0);
 
 }
+.dots{
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%,150%);
+ bottom: 0;
+ display: flex;
+ gap: 12px;
+
+}
+.dot{
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+
+  cursor: pointer;
+  border: 2px solid #0c7050;
+}
+.dot:first-child{
+  background-color: #077250;
+}
