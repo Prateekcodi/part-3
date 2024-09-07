@@ -1,0 +1,73 @@
+body{
+  font-family: "Inter" , sans-serif;
+}
+.accordion{
+  width: 700px;
+
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.items{
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.07);
+  padding: 24px;
+  display: grid;
+ grid-template-columns: auto 1fr auto;
+ column-gap: 26px;
+
+}
+
+.text{
+}
+.number,
+.text{
+  /* color: #087f50; */
+  font-size: 24px;
+  font-weight: 500;
+ 
+
+}
+.number{
+  
+  color: #ced4da;
+}
+.text{
+  
+
+}
+.icons{
+  width: 24px;
+  height: 24px;
+  stroke: #087f50;
+  align-self: center;
+
+}
+.hidden-box{
+grid-column: 1/3;
+margin-left: 48px;
+display: none;
+}
+.open .hidden-box{
+  display: block;
+}
+.open .number ,.open .text{
+  color: #087f50;
+}
+.open{
+  border-top: 4px solid #087f50;
+}
+.hidden-box p{
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.hidden-box ul{
+  color: #868e96;
+  margin-left: -24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+
+}
