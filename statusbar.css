@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: "Inter",sans-serif;
+  color: #343a40;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  
+}
+header{
+  width: 400px;
+  margin: 100px auto;
+ 
+ 
+  
+}
+table {
+ position: relative;
+
+  
+}
+
+.bars{
+ 
+ 
+}
+
+
+table tr td:nth-child(3){
+  
+  background-color: #077250;
+  color: white;
+}
+
+td{
+  border-radius: 50%;
+  padding: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  color: rgb(0, 0, 0);
+}
+.btn-right{
+position: absolute; 
+top: 24.6%;
+transform: translate(-90%,-80%);
+
+width: 35px;
+  height: 35px;
+}
+.btn-left{
+  width: 35px;
+  height: 35px;
+  position: absolute; 
+  right: 30%;
+transform: translate(-250%,0);
+
+
+
+}
+
+
+.btn{
+  stroke: #077250;
+  border: 1px solid #077250;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+align-items: center;
+  
+  
+
+}

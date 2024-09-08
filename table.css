@@ -33,3 +33,6 @@ thead th{
 tbody tr:nth-child(odd){
   background-color: rgb(122, 170, 212);
 }
+button{
+  display: flex;
+}
